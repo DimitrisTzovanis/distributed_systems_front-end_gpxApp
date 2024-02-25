@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/wallpaper1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/ds2021"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/androids"
+        android:layout_width="234dp"
+        android:layout_height="246dp"
+        android:src="@drawable/photo1" />
+
+  <!--
+    Insert a button with width 150dp, height based on content that mentions "Enter" 
+      -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="@string/button_enter" />
+
+</LinearLayout>

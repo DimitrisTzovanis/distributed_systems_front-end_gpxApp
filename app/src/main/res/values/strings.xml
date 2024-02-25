@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ds2021">Distributed Systems\n2022-2023\nElpida Stasinou - Dimitris Tzovanis</string>
+	<string name="button_enter">Enter the app</string>
+	
+	<string name="click_android">Click on the android</string>
+	<string name="changed_text">Text to be changed</string>
+
+	<string name="default_notification_channel_id">my_channel_id</string>
+	
+	<string name="app_name">TestAndroid</string>
+</resources>
